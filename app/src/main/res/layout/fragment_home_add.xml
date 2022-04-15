@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.fragment.HomeAddFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Nama"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp" />
+
+    <EditText
+        android:id="@+id/edNameUsersAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Job"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp" />
+
+    <EditText
+        android:id="@+id/edJobUsersAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Job"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnAddUsers"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Tambah" />
+</LinearLayout>
